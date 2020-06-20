@@ -1,0 +1,19 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:background="@android:color/transparent">
+
+   <androidx.viewpager.widget.ViewPager
+       android:id="@+id/vpContainer"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"/>
+
+   <LinearLayout
+       android:id="@+id/ll_point"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_gravity="bottom|center_horizontal"
+       android:layout_marginBottom="50dp"/>
+</FrameLayout>

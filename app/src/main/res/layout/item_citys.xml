@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@color/city_bg"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <com.coolweather.android.swipelayout.SwipeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="30dp"
+            android:layout_gravity="center_vertical"
+            android:text="city"
+            android:textSize="16sp"
+            android:textColor="@color/color_text"/>
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:text="删除"
+            android:textColor="@color/color_text"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_gravity="right"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:background="#ff4646" />
+    </com.coolweather.android.swipelayout.SwipeLayout>
+
+
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        tools:text="city"-->
+<!--        android:textSize="16sp"-->
+<!--        android:textColor="@color/color_text"/>-->
+</RelativeLayout>
